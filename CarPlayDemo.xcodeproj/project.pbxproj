@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA8A7A7267F018500ECD7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7A6267F018500ECD7AB /* AppDelegate.swift */; };
+		CDA8A7A9267F018500ECD7AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7A8267F018500ECD7AB /* SceneDelegate.swift */; };
+		CDA8A7AB267F018500ECD7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7AA267F018500ECD7AB /* ContentView.swift */; };
+		CDA8A7AD267F018900ECD7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA8A7AC267F018900ECD7AB /* Assets.xcassets */; };
+		CDA8A7B0267F018900ECD7AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA8A7AF267F018900ECD7AB /* Preview Assets.xcassets */; };
+		CDA8A7B3267F018900ECD7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8A7B1267F018900ECD7AB /* LaunchScreen.storyboard */; };
+		CDA8A7BE267F018900ECD7AB /* CarPlayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7BD267F018900ECD7AB /* CarPlayDemoTests.swift */; };
+		CDA8A7C9267F018A00ECD7AB /* CarPlayDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7C8267F018A00ECD7AB /* CarPlayDemoUITests.swift */; };
+		CDA8A7DA267F039E00ECD7AB /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7D9267F039E00ECD7AB /* CarPlaySceneDelegate.swift */; };
+		CDA8A7DC267F08C100ECD7AB /* CarPlayTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7DB267F08C100ECD7AB /* CarPlayTabScreen.swift */; };
+		CDA8A7DE267F091100ECD7AB /* CarPlayPOIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7DD267F091100ECD7AB /* CarPlayPOIScreen.swift */; };
+		CDA8A7E0267F175C00ECD7AB /* CarParkDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7DF267F175C00ECD7AB /* CarParkDetailScreen.swift */; };
+		CDA8A7E2267F1B4300ECD7AB /* CarPlayListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7E1267F1B4300ECD7AB /* CarPlayListScreen.swift */; };
+		CDA8A7E4267F2B4300ECD7AB /* CarPlayListScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8A7E3267F2B4300ECD7AB /* CarPlayListScreen2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA8A7BA267F018900ECD7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA8A79B267F018500ECD7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA8A7A2267F018500ECD7AB;
+			remoteInfo = CarPlayDemo;
+		};
+		CDA8A7C5267F018A00ECD7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA8A79B267F018500ECD7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA8A7A2267F018500ECD7AB;
+			remoteInfo = CarPlayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDA8A7A3267F018500ECD7AB /* CarPlayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPlayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA8A7A6267F018500ECD7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDA8A7A8267F018500ECD7AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDA8A7AA267F018500ECD7AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDA8A7AC267F018900ECD7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA8A7AF267F018900ECD7AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDA8A7B2267F018900ECD7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDA8A7B4267F018900ECD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA8A7B9267F018900ECD7AB /* CarPlayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPlayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA8A7BD267F018900ECD7AB /* CarPlayDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayDemoTests.swift; sourceTree = "<group>"; };
+		CDA8A7BF267F018A00ECD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA8A7C4267F018A00ECD7AB /* CarPlayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPlayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA8A7C8267F018A00ECD7AB /* CarPlayDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayDemoUITests.swift; sourceTree = "<group>"; };
+		CDA8A7CA267F018A00ECD7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA8A7D6267F029500ECD7AB /* CarPlayDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarPlayDemo.entitlements; sourceTree = "<group>"; };
+		CDA8A7D9267F039E00ECD7AB /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		CDA8A7DB267F08C100ECD7AB /* CarPlayTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayTabScreen.swift; sourceTree = "<group>"; };
+		CDA8A7DD267F091100ECD7AB /* CarPlayPOIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPOIScreen.swift; sourceTree = "<group>"; };
+		CDA8A7DF267F175C00ECD7AB /* CarParkDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParkDetailScreen.swift; sourceTree = "<group>"; };
+		CDA8A7E1267F1B4300ECD7AB /* CarPlayListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayListScreen.swift; sourceTree = "<group>"; };
+		CDA8A7E3267F2B4300ECD7AB /* CarPlayListScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayListScreen2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA8A7A0267F018500ECD7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA8A7B6267F018900ECD7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA8A7C1267F018A00ECD7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA8A79A267F018500ECD7AB = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7A5267F018500ECD7AB /* CarPlayDemo */,
+				CDA8A7BC267F018900ECD7AB /* CarPlayDemoTests */,
+				CDA8A7C7267F018A00ECD7AB /* CarPlayDemoUITests */,
+				CDA8A7A4267F018500ECD7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA8A7A4267F018500ECD7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7A3267F018500ECD7AB /* CarPlayDemo.app */,
+				CDA8A7B9267F018900ECD7AB /* CarPlayDemoTests.xctest */,
+				CDA8A7C4267F018A00ECD7AB /* CarPlayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA8A7A5267F018500ECD7AB /* CarPlayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7D8267F036A00ECD7AB /* CarPlay */,
+				CDA8A7D7267F033B00ECD7AB /* Phone */,
+				CDA8A7A6267F018500ECD7AB /* AppDelegate.swift */,
+				CDA8A7AC267F018900ECD7AB /* Assets.xcassets */,
+				CDA8A7B1267F018900ECD7AB /* LaunchScreen.storyboard */,
+				CDA8A7B4267F018900ECD7AB /* Info.plist */,
+				CDA8A7AE267F018900ECD7AB /* Preview Content */,
+				CDA8A7D6267F029500ECD7AB /* CarPlayDemo.entitlements */,
+			);
+			path = CarPlayDemo;
+			sourceTree = "<group>";
+		};
+		CDA8A7AE267F018900ECD7AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7AF267F018900ECD7AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDA8A7BC267F018900ECD7AB /* CarPlayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7BD267F018900ECD7AB /* CarPlayDemoTests.swift */,
+				CDA8A7BF267F018A00ECD7AB /* Info.plist */,
+			);
+			path = CarPlayDemoTests;
+			sourceTree = "<group>";
+		};
+		CDA8A7C7267F018A00ECD7AB /* CarPlayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7C8267F018A00ECD7AB /* CarPlayDemoUITests.swift */,
+				CDA8A7CA267F018A00ECD7AB /* Info.plist */,
+			);
+			path = CarPlayDemoUITests;
+			sourceTree = "<group>";
+		};
+		CDA8A7D7267F033B00ECD7AB /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7AA267F018500ECD7AB /* ContentView.swift */,
+				CDA8A7A8267F018500ECD7AB /* SceneDelegate.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		CDA8A7D8267F036A00ECD7AB /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8A7D9267F039E00ECD7AB /* CarPlaySceneDelegate.swift */,
+				CDA8A7DB267F08C100ECD7AB /* CarPlayTabScreen.swift */,
+				CDA8A7DD267F091100ECD7AB /* CarPlayPOIScreen.swift */,
+				CDA8A7DF267F175C00ECD7AB /* CarParkDetailScreen.swift */,
+				CDA8A7E1267F1B4300ECD7AB /* CarPlayListScreen.swift */,
+				CDA8A7E3267F2B4300ECD7AB /* CarPlayListScreen2.swift */,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA8A7A2267F018500ECD7AB /* CarPlayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA8A7CD267F018A00ECD7AB /* Build configuration list for PBXNativeTarget "CarPlayDemo" */;
+			buildPhases = (
+				CDA8A79F267F018500ECD7AB /* Sources */,
+				CDA8A7A0267F018500ECD7AB /* Frameworks */,
+				CDA8A7A1267F018500ECD7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPlayDemo;
+			productName = CarPlayDemo;
+			productReference = CDA8A7A3267F018500ECD7AB /* CarPlayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA8A7B8267F018900ECD7AB /* CarPlayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA8A7D0267F018A00ECD7AB /* Build configuration list for PBXNativeTarget "CarPlayDemoTests" */;
+			buildPhases = (
+				CDA8A7B5267F018900ECD7AB /* Sources */,
+				CDA8A7B6267F018900ECD7AB /* Frameworks */,
+				CDA8A7B7267F018900ECD7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA8A7BB267F018900ECD7AB /* PBXTargetDependency */,
+			);
+			name = CarPlayDemoTests;
+			productName = CarPlayDemoTests;
+			productReference = CDA8A7B9267F018900ECD7AB /* CarPlayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDA8A7C3267F018A00ECD7AB /* CarPlayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA8A7D3267F018A00ECD7AB /* Build configuration list for PBXNativeTarget "CarPlayDemoUITests" */;
+			buildPhases = (
+				CDA8A7C0267F018A00ECD7AB /* Sources */,
+				CDA8A7C1267F018A00ECD7AB /* Frameworks */,
+				CDA8A7C2267F018A00ECD7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA8A7C6267F018A00ECD7AB /* PBXTargetDependency */,
+			);
+			name = CarPlayDemoUITests;
+			productName = CarPlayDemoUITests;
+			productReference = CDA8A7C4267F018A00ECD7AB /* CarPlayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA8A79B267F018500ECD7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CDA8A7A2267F018500ECD7AB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CDA8A7B8267F018900ECD7AB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CDA8A7A2267F018500ECD7AB;
+					};
+					CDA8A7C3267F018A00ECD7AB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CDA8A7A2267F018500ECD7AB;
+					};
+				};
+			};
+			buildConfigurationList = CDA8A79E267F018500ECD7AB /* Build configuration list for PBXProject "CarPlayDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA8A79A267F018500ECD7AB;
+			productRefGroup = CDA8A7A4267F018500ECD7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA8A7A2267F018500ECD7AB /* CarPlayDemo */,
+				CDA8A7B8267F018900ECD7AB /* CarPlayDemoTests */,
+				CDA8A7C3267F018A00ECD7AB /* CarPlayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA8A7A1267F018500ECD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA8A7B3267F018900ECD7AB /* LaunchScreen.storyboard in Resources */,
+				CDA8A7B0267F018900ECD7AB /* Preview Assets.xcassets in Resources */,
+				CDA8A7AD267F018900ECD7AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA8A7B7267F018900ECD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA8A7C2267F018A00ECD7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA8A79F267F018500ECD7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA8A7A7267F018500ECD7AB /* AppDelegate.swift in Sources */,
+				CDA8A7E0267F175C00ECD7AB /* CarParkDetailScreen.swift in Sources */,
+				CDA8A7E4267F2B4300ECD7AB /* CarPlayListScreen2.swift in Sources */,
+				CDA8A7E2267F1B4300ECD7AB /* CarPlayListScreen.swift in Sources */,
+				CDA8A7DC267F08C100ECD7AB /* CarPlayTabScreen.swift in Sources */,
+				CDA8A7A9267F018500ECD7AB /* SceneDelegate.swift in Sources */,
+				CDA8A7DE267F091100ECD7AB /* CarPlayPOIScreen.swift in Sources */,
+				CDA8A7DA267F039E00ECD7AB /* CarPlaySceneDelegate.swift in Sources */,
+				CDA8A7AB267F018500ECD7AB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA8A7B5267F018900ECD7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA8A7BE267F018900ECD7AB /* CarPlayDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA8A7C0267F018A00ECD7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA8A7C9267F018A00ECD7AB /* CarPlayDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA8A7BB267F018900ECD7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA8A7A2267F018500ECD7AB /* CarPlayDemo */;
+			targetProxy = CDA8A7BA267F018900ECD7AB /* PBXContainerItemProxy */;
+		};
+		CDA8A7C6267F018A00ECD7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA8A7A2267F018500ECD7AB /* CarPlayDemo */;
+			targetProxy = CDA8A7C5267F018A00ECD7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA8A7B1267F018900ECD7AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA8A7B2267F018900ECD7AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA8A7CB267F018A00ECD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDA8A7CC267F018A00ECD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA8A7CE267F018A00ECD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarPlayDemo/CarplayDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarPlayDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarPlayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.CarPlayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA8A7CF267F018A00ECD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarPlayDemo/CarplayDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CarPlayDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CarPlayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.CarPlayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDA8A7D1267F018A00ECD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.CarPlayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPlayDemo.app/CarPlayDemo";
+			};
+			name = Debug;
+		};
+		CDA8A7D2267F018A00ECD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.CarPlayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPlayDemo.app/CarPlayDemo";
+			};
+			name = Release;
+		};
+		CDA8A7D4267F018A00ECD7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.CarPlayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPlayDemo;
+			};
+			name = Debug;
+		};
+		CDA8A7D5267F018A00ECD7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarPlayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.CarPlayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarPlayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA8A79E267F018500ECD7AB /* Build configuration list for PBXProject "CarPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA8A7CB267F018A00ECD7AB /* Debug */,
+				CDA8A7CC267F018A00ECD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA8A7CD267F018A00ECD7AB /* Build configuration list for PBXNativeTarget "CarPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA8A7CE267F018A00ECD7AB /* Debug */,
+				CDA8A7CF267F018A00ECD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA8A7D0267F018A00ECD7AB /* Build configuration list for PBXNativeTarget "CarPlayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA8A7D1267F018A00ECD7AB /* Debug */,
+				CDA8A7D2267F018A00ECD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA8A7D3267F018A00ECD7AB /* Build configuration list for PBXNativeTarget "CarPlayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA8A7D4267F018A00ECD7AB /* Debug */,
+				CDA8A7D5267F018A00ECD7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA8A79B267F018500ECD7AB /* Project object */;
+}
